@@ -1,0 +1,7 @@
+<a href='/'>Home</a>
+
+{% for submission in last_ten %}
+    <ul>
+        <li>{{ submission.input_text }}</li>
+    </ul>
+{% endfor %}
